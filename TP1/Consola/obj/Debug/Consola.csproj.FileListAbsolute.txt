@@ -1,0 +1,2 @@
+F:\1 Mamba\1 CURSADA2020_2CUATRI\Programación II - Laboratorio II\repos\TP1\Consola\obj\Debug\Consola.csprojAssemblyReference.cache
+F:\1 Mamba\1 CURSADA2020_2CUATRI\Programación II - Laboratorio II\repos\TP1\Consola\obj\Debug\Consola.csproj.CoreCompileInputs.cache
