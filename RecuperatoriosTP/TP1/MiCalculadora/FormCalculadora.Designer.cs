@@ -41,25 +41,27 @@
             // 
             // lblResultado
             // 
-            this.lblResultado.AutoSize = true;
-            this.lblResultado.Location = new System.Drawing.Point(313, 39);
+            this.lblResultado.Font = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado.Location = new System.Drawing.Point(10, 9);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(55, 13);
+            this.lblResultado.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.lblResultado.Size = new System.Drawing.Size(336, 32);
             this.lblResultado.TabIndex = 8;
             this.lblResultado.Text = "Resultado";
             // 
             // txtNumero1
             // 
-            this.txtNumero1.Location = new System.Drawing.Point(24, 84);
+            this.txtNumero1.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.txtNumero1.Location = new System.Drawing.Point(10, 55);
             this.txtNumero1.Name = "txtNumero1";
-            this.txtNumero1.Size = new System.Drawing.Size(100, 20);
+            this.txtNumero1.Size = new System.Drawing.Size(108, 20);
             this.txtNumero1.TabIndex = 0;
             // 
             // txtNumero2
             // 
-            this.txtNumero2.Location = new System.Drawing.Point(303, 84);
+            this.txtNumero2.Location = new System.Drawing.Point(238, 54);
             this.txtNumero2.Name = "txtNumero2";
-            this.txtNumero2.Size = new System.Drawing.Size(100, 20);
+            this.txtNumero2.Size = new System.Drawing.Size(108, 20);
             this.txtNumero2.TabIndex = 2;
             // 
             // cmbOperador
@@ -71,18 +73,19 @@
             "-",
             "*",
             "/"});
-            this.cmbOperador.Location = new System.Drawing.Point(155, 83);
+            this.cmbOperador.Location = new System.Drawing.Point(124, 54);
             this.cmbOperador.Name = "cmbOperador";
             this.cmbOperador.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.cmbOperador.Size = new System.Drawing.Size(121, 23);
+            this.cmbOperador.Size = new System.Drawing.Size(108, 23);
             this.cmbOperador.TabIndex = 1;
             this.cmbOperador.Text = "+";
             // 
             // btnOperar
             // 
-            this.btnOperar.Location = new System.Drawing.Point(24, 158);
+            this.btnOperar.Font = new System.Drawing.Font("Arial Black", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOperar.Location = new System.Drawing.Point(10, 89);
             this.btnOperar.Name = "btnOperar";
-            this.btnOperar.Size = new System.Drawing.Size(75, 23);
+            this.btnOperar.Size = new System.Drawing.Size(108, 44);
             this.btnOperar.TabIndex = 3;
             this.btnOperar.Text = "Operar";
             this.btnOperar.UseVisualStyleBackColor = true;
@@ -90,9 +93,10 @@
             // 
             // btnLimpiar
             // 
-            this.btnLimpiar.Location = new System.Drawing.Point(167, 158);
+            this.btnLimpiar.Font = new System.Drawing.Font("Arial Black", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimpiar.Location = new System.Drawing.Point(124, 89);
             this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Size = new System.Drawing.Size(75, 23);
+            this.btnLimpiar.Size = new System.Drawing.Size(108, 44);
             this.btnLimpiar.TabIndex = 4;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = true;
@@ -100,9 +104,10 @@
             // 
             // btnCerrar
             // 
-            this.btnCerrar.Location = new System.Drawing.Point(316, 158);
+            this.btnCerrar.Font = new System.Drawing.Font("Arial Black", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCerrar.Location = new System.Drawing.Point(238, 89);
             this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(75, 23);
+            this.btnCerrar.Size = new System.Drawing.Size(108, 44);
             this.btnCerrar.TabIndex = 5;
             this.btnCerrar.Text = "Cerrar";
             this.btnCerrar.UseVisualStyleBackColor = true;
@@ -110,9 +115,10 @@
             // 
             // btnCovertirABinario
             // 
-            this.btnCovertirABinario.Location = new System.Drawing.Point(88, 222);
+            this.btnCovertirABinario.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCovertirABinario.Location = new System.Drawing.Point(10, 139);
             this.btnCovertirABinario.Name = "btnCovertirABinario";
-            this.btnCovertirABinario.Size = new System.Drawing.Size(101, 23);
+            this.btnCovertirABinario.Size = new System.Drawing.Size(163, 51);
             this.btnCovertirABinario.TabIndex = 6;
             this.btnCovertirABinario.Text = "Covertir a Binario";
             this.btnCovertirABinario.UseVisualStyleBackColor = true;
@@ -120,9 +126,10 @@
             // 
             // btnCovertirADecimal
             // 
-            this.btnCovertirADecimal.Location = new System.Drawing.Point(232, 222);
+            this.btnCovertirADecimal.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCovertirADecimal.Location = new System.Drawing.Point(183, 139);
             this.btnCovertirADecimal.Name = "btnCovertirADecimal";
-            this.btnCovertirADecimal.Size = new System.Drawing.Size(104, 23);
+            this.btnCovertirADecimal.Size = new System.Drawing.Size(163, 51);
             this.btnCovertirADecimal.TabIndex = 7;
             this.btnCovertirADecimal.Text = "Covertir a Decimal";
             this.btnCovertirADecimal.UseVisualStyleBackColor = true;
@@ -132,7 +139,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(415, 290);
+            this.ClientSize = new System.Drawing.Size(358, 195);
             this.Controls.Add(this.btnCovertirADecimal);
             this.Controls.Add(this.btnCovertirABinario);
             this.Controls.Add(this.btnCerrar);

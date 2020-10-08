@@ -151,6 +151,6 @@ namespace MiCalculadora
                 return Calculadora.Operar(primerNumero, segundoNumero, chrOperador);
                 
             }
-        }        
+        }
     }
 }
